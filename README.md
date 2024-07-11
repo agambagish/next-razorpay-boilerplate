@@ -2,6 +2,12 @@
 
 ## Integrate Payments With Next.js, TailwindCSS, and Razorpay 💯
 
+![landing](https://github.com/agambagish/next-razorpay-boilerplate/assets/89576841/f0289bb0-ac46-4bda-8608-402aa43694e1)
+
+![gateway](https://github.com/agambagish/next-razorpay-boilerplate/assets/89576841/8c04ba13-c545-4e81-b6e3-4ff5cb60c4b7)
+
+![architecture](https://github.com/agambagish/next-razorpay-boilerplate/assets/89576841/2e89bc67-7327-4516-88bb-dcc38789dcd0)
+
 # Features
 
 - Make secure UPI payments seamlessly.
