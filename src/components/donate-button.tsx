@@ -1,3 +1,4 @@
+/* eslint-disable node/no-process-env */
 "use client";
 
 import { createPGOrder } from "@/actions/payment";
@@ -9,7 +10,7 @@ declare global {
   }
 }
 
-export const DonateButton = () => {
+export function DonateButton() {
   const handleDonation = async () => {
     const { id, amount, currency } = await createPGOrder();
     const pgWindow = new window.Razorpay({
@@ -30,4 +31,4 @@ export const DonateButton = () => {
       Donate
     </Button>
   );
-};
+}

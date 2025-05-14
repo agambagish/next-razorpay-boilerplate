@@ -1,8 +1,9 @@
+/* eslint-disable node/no-process-env */
 "use server";
 
 import Razorpay from "razorpay";
 
-export const createPGOrder = async () => {
+export async function createPGOrder() {
   const razorpay = new Razorpay({
     key_id: process.env.RAZORPAY_KEY_ID!,
     key_secret: process.env.RAZORPAY_KEY_SECRET,
@@ -20,4 +21,4 @@ export const createPGOrder = async () => {
     currency: order.currency,
     amount: order.amount,
   };
-};
+}
