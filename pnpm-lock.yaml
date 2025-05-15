@@ -37,8 +37,8 @@ importers:
         specifier: 15.3.2
         version: 15.3.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       razorpay:
-        specifier: ^2.9.4
-        version: 2.9.4
+        specifier: ^2.9.6
+        version: 2.9.6
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -2873,8 +2873,8 @@ packages:
     resolution: {integrity: sha512-RmkhL8CAyCRPXCE28MMH0z2PNWQBNk2Q09ZdxM9IOOXwxwZbN+qbWaatPkdkWIKL2ZVDImrN/pK5HTRz2PcS4g==}
     engines: {node: '>= 0.8'}
 
-  razorpay@2.9.4:
-    resolution: {integrity: sha512-CvOitdgM5HNr+zl174fHpZoJKVFYEfPoGx798kX+kg3haGDD3xinzxTzRUIOzLnL1/F4e7mUoIaGNn0h1E929Q==}
+  razorpay@2.9.6:
+    resolution: {integrity: sha512-zsHAQzd6e1Cc6BNoCNZQaf65ElL6O6yw0wulxmoG5VQDr363fZC90Mp1V5EktVzG45yPyNomNXWlf4cQ3622gQ==}
 
   react-dom@19.1.0:
     resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
@@ -6787,7 +6787,7 @@ snapshots:
       iconv-lite: 0.6.3
       unpipe: 1.0.0
 
-  razorpay@2.9.4:
+  razorpay@2.9.6:
     dependencies:
       axios: 1.7.2
     transitivePeerDependencies:

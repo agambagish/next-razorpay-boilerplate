@@ -1,7 +1,7 @@
 import Image from "next/image";
 
+import { BuyNowButton } from "@/components/global/buy-now-button";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -38,7 +38,7 @@ export function ProductCard() {
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button className="w-full">Buy now</Button>
+        <BuyNowButton />
       </CardFooter>
     </Card>
   );

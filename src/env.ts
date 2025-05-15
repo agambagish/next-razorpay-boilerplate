@@ -7,9 +7,13 @@ export const env = createEnv({
     RAZORPAY_KEY_ID: z.string(),
     RAZORPAY_KEY_SECRET: z.string(),
   },
+  client: {
+    NEXT_PUBLIC_RAZORPAY_KEY_ID: z.string(),
+  },
   runtimeEnv: {
     RAZORPAY_KEY_ID: process.env.RAZORPAY_KEY_ID,
     RAZORPAY_KEY_SECRET: process.env.RAZORPAY_KEY_SECRET,
+    NEXT_PUBLIC_RAZORPAY_KEY_ID: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
   },
   emptyStringAsUndefined: true,
   onValidationError: (issues) => {
